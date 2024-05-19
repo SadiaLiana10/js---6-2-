@@ -1,0 +1,34 @@
+:root{
+    --background-color:#000;
+    --heading:#94FFD8;
+    --button:radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+body{
+    color:var(--background-color);
+}
+body.dark{
+    background-color: var(--background-color);
+    color: var(--heading);
+    
+}
+.container{
+    text-align: center;
+}
+.container .heading h1{
+    font-size:50px;
+    font-weight: bold;
+}
+
+button{
+    font-weight: bold;
+    padding:20px 25px;
+    border-radius: 10px;
+}
+ button.dark-mode{
+    background:var(--button);
+    color: var(--background-color);
+    box-shadow: 0 0 10px #94FFD8;
+    border:none;
+ }
+
